@@ -45,4 +45,4 @@ jobs:
       - name: Deploy Application
         run: |
           echo "Deploying application..."
-          npm run preview
+          npm run start
