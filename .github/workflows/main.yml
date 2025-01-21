@@ -45,4 +45,5 @@ jobs:
       - name: Deploy Application
         run: |
           echo "Deploying application..."
-          npm run start
+          pm2 start npm --name "react-app" -- start
+
